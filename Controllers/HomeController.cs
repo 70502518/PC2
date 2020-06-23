@@ -18,6 +18,12 @@ namespace PC2.Controllers
             _logger = logger;
         }
 
+        public IActionResult Formulario()
+        {
+          //TODO: Implement Realistic Implementation
+          return View();
+        }
+
         public IActionResult Index()
         {
             return View();
